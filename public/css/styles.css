@@ -1,0 +1,47 @@
+body {
+    background-image: url("/img/techblue.jpg");
+  }
+  
+  .container {
+    background-color: rgb(65, 60, 60);
+  }
+  
+  
+  .nopadding {
+    padding: 0 !important;
+   
+  }
+  
+  .top-buttons {
+  float: right;
+  margin: 1%;
+  }
+  
+  .top-buttons li {
+  margin: 0 2px;
+  }
+  
+  .card {
+    box-shadow: 5px 5px 5px rgb(194, 194, 194);
+  }
+  
+  .article {
+  margin: 3% 5%;
+  }
+  
+  
+  .article p {
+  color: rgb(63, 22, 22);
+  font-weight: bold;
+  }
+  
+  
+  .load {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  }
