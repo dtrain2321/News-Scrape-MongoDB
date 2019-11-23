@@ -46,7 +46,7 @@ $(document).on("click", ".scrape", function(){
         url: '/unsave/' + articleId,
         type: "POST"
     }).done(function(data) {
-        $(".article").filter("[data-id='" + articleId + "']").remove();
+        $(".article").filter("[data-id='" + articleId + "']").remove()
     });
   })
   
